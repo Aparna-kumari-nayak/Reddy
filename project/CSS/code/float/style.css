@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+.box1{
+    background: rgb(74,49,49);
+    text-align:center
+}
+.box1 ul{
+    display: inline-flex;
+    list-style:none;
+    color:#fff;
+}
+.box1 ul li{
+    width: 150px;
+    margin:15px;
+    padding:15px;
+    border-radius: 10px;
+}
+.box1 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.active{
+    background: rgb(30,2,2);
+}
+.box1 ul li:hover{
+    background: rgb(30,2,2);
+}
+.service-dropdown{
+    display: none;
+}
+.box1 ul li:hover .service-dropdown{
+    display: block;
+    position: absolute;
+    background: rgb(74,49,49,0.8);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.box1 ul li:hover .service-dropdown ul{
+    display: block;
+    margin: 10px;
+}
+.box1 ul li:hover .service-dropdown ul li{
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+.box1 ul li:hover .service-dropdown ul li a{
+    color: rgb(208,179,179);
+}
+
+.picture{
+    width: 700px;
+    height: 500px;
+    background: url(./eat.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 400px 0 0 350px;
+}
+.box2{
+    text-align: center;
+    padding: 18px;
+    margin-top: 80px;
+}
+.box2 h1{
+    font-size: 60px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    color: rgb(74,49,49);
+}
+.box2 p{text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-bottom: 60px;
+
+}
+.box2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px;
+    background: rgb(237,90,10);
+    margin-left: 100px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.box2 a:hover{
+    background: rgb(79,30,4);
+}
+
+
+

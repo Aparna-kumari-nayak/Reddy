@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:poppins;
+    background:white;
+
+}
+.wrapper{
+    padding:5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+}
+header{
+    padding:0 15px;
+    text-align: center;
+    font-size: 21px;
+}
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+.column{
+    flex:1;
+    border:1px solid #666;
+    margin:2px;
+    padding:10px;
+    background: #3af4d5;
+    transition:0.3s;
+}
+.column:first-child{
+    margin-left:0;
+    background-color: chocolate;
+}
+
+}
